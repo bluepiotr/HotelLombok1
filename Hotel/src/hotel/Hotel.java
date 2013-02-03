@@ -1,18 +1,21 @@
 package hotel;
 
-import lombok.Getter;
-import lombok.Setter;
-import lombok.AccessLevel;
+import lombok.NonNull;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
 
+@Data
+@EqualsAndHashCode(exclude={"starRating", "manager"})
 public class Hotel {
-	
-	@Getter @Setter (AccessLevel.PACKAGE) private String name;	
-	@Getter @Setter private String address;	
-	@Getter @Setter private String telephone;
-	@Getter @Setter private int numberOfRooms;
-	@Getter @Setter private int starRating;
-	@Getter @Setter private String manager;	
-	
-	
+	@NonNull
+	private String name;
+    @NonNull
+	private String address;	
+    @NonNull
+	private String telephone;
+    @NonNull
+	private int numberOfRooms;
+    private int starRating;
+	private String manager;		
 }
 
