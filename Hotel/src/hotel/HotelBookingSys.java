@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.Map;
 import java.util.Scanner;
 
-public class HotelBookingSystem implements Serializable {
+public class HotelBookingSys implements Serializable {
 	private static final String EXIT = "x";
 	
 	enum ACCESS_LEVELS { MANAGER, CUSTOMER, NOTHING};
