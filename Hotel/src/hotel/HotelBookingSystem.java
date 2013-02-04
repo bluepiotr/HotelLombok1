@@ -18,7 +18,7 @@ public class HotelBookingSystem implements Serializable {
 
 	private String name;
 
-	private ArrayList<Cinema> cinemas;
+	private ArrayList<Hotel> hotels;
 	private ArrayList<Person> users;
 	private Movie movie; // should these be ArrayLists or arrays
 	private Screen screen;
