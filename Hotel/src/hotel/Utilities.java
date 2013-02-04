@@ -4,12 +4,8 @@ package hotel;
 import java.io.*;
 
 public class Utilities {
-    private static final String FILENAME = "system.ser";
+    private static final String FILENAME = "sistema.ser";
 
-    //=================================================
-    /**
-     * read the state of the booking system into the VM
-     */
     public static Object initialise() {
 
         FileInputStream fis = null;
