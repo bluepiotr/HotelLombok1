@@ -13,12 +13,14 @@ public class HotelTester {
 		
         if (h1.equals(h2))
             System.out.println("Hotels "  + 
-        h1 + " and " + h2 + " are Duplicates");
+        h1 + " and " + h2 + " are the same hotel");
         else
-            System.out.println("Hotels are different");
+        	System.out.println("Hotels "  + 
+        	        h1.getName() + " and " + h2.getName() 
+        	        + " are different");
 
 		
-		System.out.println("hotel1: " + h1.toString());	
+		System.out.println("hotel1: " + h1);	
 		System.out.println("hotel2: " + h2.toString());
 	}
 }
